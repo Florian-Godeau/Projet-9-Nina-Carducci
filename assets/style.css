@@ -69,9 +69,9 @@ body {
 }
 
 .picture img {
+	aspect-ratio: 1 / 1;
 	max-width: 100%;
 	height: auto;
-	aspect-ratio: auto 1 / 1;
 }
 
 #about-me {
@@ -259,7 +259,7 @@ input[type="submit"] {
 }
 
 .carousel {
-	aspect-ratio: auto 80 / 37;
+	aspect-ratio: 80 / 37;
 }
 
 @media all and (max-width: 1180px) {
