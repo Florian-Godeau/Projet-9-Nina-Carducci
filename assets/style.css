@@ -60,6 +60,7 @@ body {
 	bottom: 0;
 	left: 0;
 	z-index: -1;
+	aspect-ratio: 1 / 1;
 }
 
 .picture {
@@ -69,7 +70,6 @@ body {
 }
 
 .picture img {
-	aspect-ratio: 1 / 1;
 	max-width: 100%;
 	height: auto;
 }
@@ -220,6 +220,7 @@ body {
 	bottom: 0;
 	right: 0;
 	z-index: -1;
+	aspect-ratio: 1 / 1;
 }
 .form-container {
 	flex : 2;
