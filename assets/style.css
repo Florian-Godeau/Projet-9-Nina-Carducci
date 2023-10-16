@@ -51,6 +51,10 @@ body {
 	position: relative;
 }
 
+.picture.left {
+	aspect-ratio: 1 / 1;
+}
+
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
@@ -60,7 +64,6 @@ body {
 	bottom: 0;
 	left: 0;
 	z-index: -1;
-	aspect-ratio: 1 / 1;
 }
 
 .picture {
@@ -211,6 +214,11 @@ body {
 #contact .container {
 	display: flex;
 }
+
+.picture.right {
+	aspect-ratio: 1 / 1;
+}
+
 .picture.right::before {
 	content: ' ';
 	background-color: #BEB45A;
@@ -220,7 +228,6 @@ body {
 	bottom: 0;
 	right: 0;
 	z-index: -1;
-	aspect-ratio: 1 / 1;
 }
 .form-container {
 	flex : 2;
