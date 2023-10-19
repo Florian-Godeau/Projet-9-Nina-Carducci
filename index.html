@@ -4,6 +4,23 @@
 	<title>Nina Carducci, photographe professionnelle à Bordeaux</title>
 	<meta name="description" content="Découvrez le monde à travers l'objectif de Nina Carducci, photographe basée à Bordeaux. Capturant la beauté des moments précieux, des mariages aux concerts, explorez son portfolio et contactez-la pour immortaliser vos souvenirs." />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Schema.org meta for Google+ -->
+	<meta itemprop="name" content="Nina Carducci photographe" />
+	<meta itemprop="description" content="Portfolio de Nina Carducci photographe à Bordeaux" />
+	<meta itemprop="image" content="./assets/images/nina-800.webp" />
+	<!-- Twitter summary card with large image must be at least 280x150px -->
+	<meta name="twitter:card" content="Nina Carducci photographe" />
+	<meta name="twitter:site" content="Nina Carducci" />
+	<meta name="twitter:creator" content="Nina Carducci" />
+	<meta name="twitter:title" content="Portfolio de Nina Carducci photographe à Bordeaux" />
+	<meta name="twitter:description" content="Portfolio de Nina Carducci photographe à Bordeaux" />
+	<meta name="twitter:image" content="./assets/images/nina-800.webp" />
+	<!-- Open Graph meta (Facebook, Linkedin) -->
+	<meta property="og:title" content="Portfolio de Nina Carducci photographe à Bordeaux" />
+	<meta property="og:type" content="portfolio" />
+	<meta property="og:description" content="Portfolio de Nina Carducci photographe à Bordeaux" />
+	<meta property="author" content="Nina Carducci" />
+	<meta property="og:image" content="./assets/images/nina-800.webp" />
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<meta charset="UTF-8">
 	<script src="./assets/bootstrap/bootstrap.bundle.min.js" async></script>
@@ -11,6 +28,51 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
 	<script src="./assets/maugallery.min.js" defer></script>
 	<script src="./assets/scripts.min.js" defer></script>
+	<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "LocalBusiness",
+		  "name": "Nina Carducci",
+		  "image": "./assets/images/nina-800.webp",
+		  "description": "Services de photographie à Bordeaux",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"addressRegion": "Gironde",
+			"addressCountry": "France"
+		  },
+		  "telephone": "05 56 67 78 89",
+		  "openingHours": "Lu-Ve 10:00-19:00",
+		  "priceRange": "€€",
+		  "areaServed": ["Bordeaux", "Île-de-France"],
+		  "hasOfferCatalog": {
+			"@type": "OfferCatalog",
+			"name": "Services",
+			"itemListElement": [
+			  {
+				"@type": "Offer",
+				"name": "Shooting photo",
+				"price": "350€/demi journée",
+				"description": "Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos."
+			  },
+			  {
+				"@type": "Offer",
+				"name": "Retouches",
+				"price": "50€/photo",
+				"description": "Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications."
+			  },
+			  {
+				"@type": "Offer",
+				"name": "Album photos",
+				"price": "400€ album A4",
+				"description": "Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé."
+			  }
+			]
+		  }
+		}
+	</script>
 </head>
 <body>
 <header class="top-header">
